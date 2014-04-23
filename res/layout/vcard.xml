@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back"
+    >
+<TextView  
+    android:id="@+id/text1"
+    android:text="Visiting eCard" 
+    android:typeface="serif"
+    android:textSize="20px"
+    android:textColor="#000000"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content" 
+    android:gravity="center"/>
+    
+<TextView  
+	android:id="@+id/text2"
+	android:layout_below="@+id/text1"
+    android:text="@string/choose" 
+    android:typeface="serif"
+    android:textSize="15px"
+    android:textColor="#000000"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content" 
+    android:gravity="center"/>
+    
+<ScrollView 
+	android:layout_marginBottom="50dip" 
+	android:layout_below="@+id/text2" 
+	android:id="@+id/ScrollView01" 
+	android:layout_height="wrap_content" 
+	android:layout_width="fill_parent" 
+	android:isScrollContainer="true">
+
+<LinearLayout 
+	android:layout_height="fill_parent" 
+	android:layout_width="fill_parent" 
+	android:layout_weight="1" 
+	android:orientation="vertical">
+
+<Button
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_marginBottom="0dip"
+        android:layout_marginTop="10dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginLeft="5dip"
+        android:layout_gravity="right"
+		android:id="@+id/vtemp1"
+        android:padding="12dip"
+        
+        android:background="#AA000000"
+        android:textColor="#ffffffff"
+        
+        android:text="Template 1" 
+        android:gravity="left"/>
+<Button
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_marginBottom="0dip"
+        android:layout_marginTop="10dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginLeft="5dip"
+        android:layout_gravity="right"
+		android:id="@+id/vtemp2"
+        android:padding="12dip"
+        
+        android:background="#AA000000"
+        android:textColor="#ffffffff"
+        
+        android:text="Template 2" 
+        android:gravity="left"/>
+<Button
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_marginBottom="0dip"
+        android:layout_marginTop="10dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginLeft="5dip"
+        android:layout_gravity="right"
+		android:id="@+id/vtemp3"
+        android:padding="12dip"
+        
+        android:background="#AA000000"
+        android:textColor="#ffffffff"
+        
+        android:text="Template 3" 
+        android:gravity="left"/>
+<Button
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_marginBottom="0dip"
+        android:layout_marginTop="10dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginLeft="5dip"
+        android:layout_gravity="right"
+		android:id="@+id/vtemp4"
+        android:padding="12dip"
+        
+        android:background="#AA000000"
+        android:textColor="#ffffffff"
+        
+        android:text="Template 4" 
+        android:gravity="left"/>
+<Button
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_marginBottom="0dip"
+        android:layout_marginTop="10dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginLeft="5dip"
+        android:layout_gravity="right"
+		android:id="@+id/vtemp5"
+        android:padding="12dip"
+        
+        android:background="#AA000000"
+        android:textColor="#ffffffff"
+        
+        android:text="Template 5" 
+        android:gravity="left"/>
+<Button
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_marginBottom="0dip"
+        android:layout_marginTop="10dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginLeft="5dip"
+        android:layout_gravity="right"
+		android:id="@+id/vtemp6"
+        android:padding="12dip"
+        
+        android:background="#AA000000"
+        android:textColor="#ffffffff"
+        
+        android:text="Template 6" 
+        android:gravity="left"/>
+<Button
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_marginBottom="0dip"
+        android:layout_marginTop="10dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginLeft="5dip"
+        android:layout_gravity="right"
+		android:id="@+id/vtemp7"
+        android:padding="12dip"
+        
+        android:background="#AA000000"
+        android:textColor="#ffffffff"
+        
+        android:text="Template 7" 
+        android:gravity="left"/>
+</LinearLayout>
+</ScrollView>
+<LinearLayout 
+	android:orientation="horizontal" 
+	android:layout_alignParentBottom="true" 
+    android:layout_width="fill_parent" 
+    android:background="@android:drawable/bottom_bar"  
+    android:layout_height="wrap_content" 
+    android:gravity="center_vertical|center_horizontal">
+ 
+ <Button 
+ android:id="@+id/tempb" 
+ android:layout_width="wrap_content" 
+ android:text="Back" 
+ android:layout_height="wrap_content"
+ android:layout_marginRight="40dip">
+</Button>
+
+    <Button 
+    android:id="@+id/temph" 
+    android:layout_width="wrap_content" 
+    android:text="Help" 
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="40dip"> >
+    
+</Button>
+</LinearLayout>
+</RelativeLayout>

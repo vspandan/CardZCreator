@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome">Welcome to cardZcreator</string>
+    <string name="app_name">cardZcreator</string>
+    <string name="hello">Hello</string>
+    <string name="ashish">Ashish here..!!!</string>
+    <string name="cont">Continue</string>
+    <string name="vcard">Visiting eCard</string>
+    <string name="gcard">Greeting eCard</string>
+    <string name="wcard">Wedding eCard</string>
+    <string name="ocard">Create my own eCard</string>
+    <string name="help">Help</string>
+    <string name="exit">Exit</string>
+    <string name="choose">(Select any Template)</string>
+    <string name="help_content">\n\tCardZcreator is an android application developed  to facilitate its users in easy and fast creation of visiting , greeting and wedding cards.\n\n\tTo create a card choose from one of the various templates available with the application and edit it to your needs.To edit the text of a template click on the text.To go back or save the image click on the menu button and follow on screen steps.\n\n\tAlternatively you can create your own card by selecting "Create my own card" from the menu.A default white workspace is provided.You can add text and images to it by clicking the menu button and following on screen instructions.To change the position of text(image) long click the text(image) until it blinks and continue dragging to desired position.To edit the properties of text(image) short click on text(image) and choose from the menu generated on screen.\n\n</string>
+	<string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+</resources>

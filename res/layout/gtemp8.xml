@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+       
+	android:fadeScrollbars="false"
+	 
+	android:id="@+id/vScrollView" 
+	android:layout_height="fill_parent" 
+	android:layout_width="fill_parent"
+	android:scrollbars="vertical" 
+	android:scrollbarStyle="outsideInset"
+	android:scrollbarAlwaysDrawVerticalTrack="true"
+	android:isScrollContainer="true"> 
+	<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent"
+        android:id="@+id/hScrollView"
+       
+        android:scrollbars="horizontal"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:fadeScrollbars="false"> 
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/gtemp8"
+  android:id="@+id/abslyt">
+    <EditText 
+    	android:id="@+id/editText1" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content" 
+    	android:text="Dear "
+        android:background="@android:color/transparent"
+        android:textColor="#104e8b"
+   android:textStyle="bold"
+   android:textSize="15px"
+    	android:layout_x="50dip"
+    	android:layout_y="25dip"
+    	>
+    	</EditText>
+    	 <EditText 
+    	android:id="@+id/editText1" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content" 
+    	android:text="name"
+        android:background="@android:color/transparent"
+        android:textColor="#104e8b"
+   android:textStyle="bold"
+   android:textSize="15px"
+    	android:layout_x="70dip"
+    	android:layout_y="45dip"
+    	>
+    	</EditText>
+    	 <EditText 
+    	android:id="@+id/editText1" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content" 
+    	android:text="General Wishes Line - 1 "
+        android:background="@android:color/transparent"
+        android:textColor="#104e8b"
+   android:textStyle="bold"
+   android:textSize="30px"
+    	android:layout_x="250dip"
+    	android:layout_y="150dip"
+    	>
+    	</EditText>
+    	<EditText 
+    	android:id="@+id/editText1" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content" 
+    	android:text="General Wishes Line - 2 "
+        android:background="@android:color/transparent"
+        android:textColor="#104e8b"
+   android:textStyle="bold"
+   android:textSize="30px"
+    	android:layout_x="250dip"
+    	android:layout_y="200dip"
+    	>
+    	</EditText>
+    	<EditText 
+    	android:id="@+id/editText1" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content" 
+    	android:text="General Wishes Line - 3" 
+        android:background="@android:color/transparent"
+        android:textColor="#104e8b"
+   android:textStyle="bold"
+   android:textSize="30px"
+    	android:layout_x="250dip"
+    	android:layout_y="250dip"
+    	>
+    	</EditText>
+    	<EditText 
+    	android:id="@+id/editText1" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content" 
+    	android:text="General Wishes Line - 4" 
+        android:background="@android:color/transparent"
+        android:textColor="#104e8b"
+   android:textStyle="bold"
+   android:textSize="30px"
+    	android:layout_x="250dip"
+    	android:layout_y="300dip"
+    	>
+    	</EditText>
+    	<EditText 
+    	android:id="@+id/editText1" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content" 
+    	android:text="From" 
+        android:background="@android:color/transparent"
+        android:textColor="#104e8b"
+   android:textStyle="bold"
+   android:textSize="15px"
+    	android:layout_x="600dip"
+    	android:layout_y="450dip"
+    	>
+    	</EditText>
+    	<EditText 
+    	android:id="@+id/editText1" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content" 
+    	android:text="name" 
+        android:background="@android:color/transparent"
+        android:textColor="#104e8b"
+   android:textStyle="bold"
+   android:textSize="15px"
+    	android:layout_x="630dip"
+    	android:layout_y="480dip"
+    	>
+    	</EditText>
+</AbsoluteLayout>
+</HorizontalScrollView>
+</ScrollView>

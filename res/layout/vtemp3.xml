@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/vtemp3"
+  android:id="@+id/abslyt">
+    <EditText 
+    android:layout_width="wrap_content" 
+    android:text="Organization" 
+    android:id="@+id/editText1" 
+    android:textColor="#ffffff" 
+    android:textSize="15px" 
+    android:background="@android:color/transparent" 
+    android:layout_height="wrap_content" 
+    android:layout_x="280dip" 
+    android:layout_y="200dip">
+    </EditText>
+    <EditText 
+    android:layout_width="wrap_content" 
+    android:text="Organization tag line" 
+    android:id="@+id/editText1" 
+    android:textColor="#ffffff" 
+    android:textSize="10px" 
+    android:background="@android:color/transparent" 
+    android:layout_height="wrap_content" 
+    android:layout_x="310dip" 
+    android:layout_y="220dip">
+    </EditText>
+    <EditText 
+    android:layout_width="wrap_content" 
+    android:text="NAME" 
+    android:id="@+id/editText1" 
+    android:textColor="#ffffff" 
+    android:textSize="25px" 
+    android:background="@android:color/transparent" 
+    android:layout_height="wrap_content" 
+    android:layout_x="50dip" 
+    android:layout_y="50dip">
+    </EditText>
+    <EditText 
+    android:layout_width="wrap_content" 
+    android:text="Designation" 
+    android:id="@+id/editText1" 
+    android:textColor="#ffffff" 
+    android:textSize="18px" 
+    android:background="@android:color/transparent" 
+    android:layout_height="wrap_content" 
+    android:layout_x="50dip" 
+    android:layout_y="80dip">
+    </EditText>
+    <EditText 
+    android:layout_width="wrap_content" 
+    android:text="Address Line 1" 
+    android:id="@+id/editText1" 
+    android:textColor="#ffffff" 
+    android:textSize="12px" 
+    android:background="@android:color/transparent" 
+    android:layout_height="wrap_content" 
+    android:layout_x="10dip" 
+    android:layout_y="180dip">
+    </EditText>
+    <EditText 
+    android:layout_width="wrap_content" 
+    android:text="Address Line 2" 
+    android:id="@+id/editText1" 
+    android:textColor="#ffffff" 
+    android:textSize="12px" 
+    android:background="@android:color/transparent" 
+    android:layout_height="wrap_content" 
+    android:layout_x="10dip" 
+    android:layout_y="200dip">
+    </EditText>
+    <EditText 
+    android:layout_width="wrap_content" 
+    android:text="Contact 1" 
+    android:id="@+id/editText1" 
+    android:textColor="#ffffff" 
+    android:textSize="12px" 
+    android:background="@android:color/transparent" 
+    android:layout_height="wrap_content" 
+    android:layout_x="10dip" 
+    android:layout_y="220dip">
+    </EditText>
+    <EditText 
+    android:layout_width="wrap_content" 
+    android:text="Contact 2" 
+    android:id="@+id/editText1" 
+    android:textColor="#ffffff" 
+    android:textSize="12px" 
+    android:background="@android:color/transparent" 
+    android:layout_height="wrap_content" 
+    android:layout_x="10dip" 
+    android:layout_y="240dip">
+    </EditText>
+</AbsoluteLayout>
